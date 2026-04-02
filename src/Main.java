@@ -1,5 +1,3 @@
-
-
 public class Main {
     public static void main(String[] args) {
         WaterCalculator waterCalculator = new WaterCalculator();
@@ -10,5 +8,10 @@ public class Main {
 
         WeatherCalculator weatherCalculator = new WeatherCalculator();
         weatherCalculator.getTaAndV();
+
+        System.out.println();
+
+        Sigmod sigmod = new Sigmod();
+        sigmod.getXAndCalculate();
     }
 }
